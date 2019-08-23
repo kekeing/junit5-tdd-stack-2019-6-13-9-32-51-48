@@ -89,5 +89,19 @@ public class FizzBuzzTest {
         Assertions.assertEquals("fizzwhizz" , word);
 
     }
+    @Test
+    public void should_get_buzzwhizz_when_fizzBuzzTest_then_35(){
+        //given
+        int number = 35;
+        fizzBuzzNumberGame fizzBuzzNumberGame = new fizzBuzzNumberGame();
+
+
+        //when
+        String word = fizzBuzzNumberGame.fizzBuzz(number);
+
+        //then
+        Assertions.assertEquals("buzzwhizz" , word);
+
+    }
     
 }
