@@ -12,9 +12,9 @@ public class fizzBuzzNumberGame {
         	 result += "buzz";
         }
         if(number % 7 == 0) {
-        	return "whizz";
+        	result +=  "whizz";
         }
-        if (number % 3 != 0  &&  number % 5 != 0) {
+        if (number % 3 != 0  &&  number % 5 != 0 && number % 7 != 0) {
         	 result = Integer.toString(number);
 			
 		} 
